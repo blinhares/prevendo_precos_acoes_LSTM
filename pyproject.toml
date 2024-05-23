@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "prevendo-precos-acoes-lstm"
+version = "0.1.0"
+description = ""
+authors = ["bruno <b_linhares@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yfinance = "^0.2.40"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+matplotlib = "^3.9.0"
+scikit-learn = "^1.5.0"
+keras = "^3.3.3"
+tensorflow = {extras = ["and-cuda"], version = "^2.16.1"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
