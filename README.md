@@ -20,7 +20,7 @@ No nosso caso, como diz o titulo, utilizaremos o modelo para tentar prever o com
 ## Clonando Repositório
 
 ```bash
-git clone
+git clone https://github.com/blinhares/prevendo_precos_acoes_LSTM.git
 ```
 
 ## Dependências
